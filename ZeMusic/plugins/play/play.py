@@ -435,6 +435,7 @@ async def play_commnd(
                 return await play_logs(message, streamtype=f"URL Searched Inline")
 
 
+
 @app.on_callback_query(filters.regex("MusicStream") & ~BANNED_USERS)
 @languageCB
 async def play_music(client, CallbackQuery, _):
@@ -504,6 +505,7 @@ async def play_music(client, CallbackQuery, _):
     return await mystic.delete()
 
 
+
 @app.on_callback_query(filters.regex("modymousAdmin") & ~BANNED_USERS)
 async def modymous_check(client, CallbackQuery):
     try:
@@ -513,6 +515,7 @@ async def modymous_check(client, CallbackQuery):
         )
     except:
         pass
+
 
 
 @app.on_callback_query(filters.regex("modyPlaylists") & ~BANNED_USERS)
@@ -602,6 +605,7 @@ async def play_playlists_command(client, CallbackQuery, _):
     return await mystic.delete()
 
 
+
 @app.on_callback_query(filters.regex("slider") & ~BANNED_USERS)
 @languageCB
 async def slider_queries(client, CallbackQuery, _):
@@ -663,4 +667,4 @@ async def slider_queries(client, CallbackQuery, _):
         )
         return await CallbackQuery.edit_message_media(
             media=med, reply_markup=InlineKeyboardMarkup(buttons)
-        )
+            )
