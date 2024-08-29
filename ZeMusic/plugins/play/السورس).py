@@ -15,7 +15,7 @@ from random import  choice, randint
 
 
 @app.on_message(
-    command(["سورس","سورس نجد","السورس"])
+    command(["سورس","سورس رفا","السورس"])
 )
 async def huhh(client: Client, message: Message):
     await message.reply_photo(
@@ -25,13 +25,13 @@ async def huhh(client: Client, message: Message):
             [
                 [
                     InlineKeyboardButton(
-                        " 𝗖𝗛𝗔𝗡𝗘𝗟 .", url=f"https://t.me/M_2_G"), 
+                        " 𝗖𝗛𝗔𝗡𝗘𝗟 .", url=f"https://t.me/M_2_G6"), 
                  InlineKeyboardButton(
-                   "𝐬𝐨𝐮𝐫𝐜𝐞 𝐚𝐥𝐢𝐜𝐞🧚",       url=f"https://t.me/ngd_1"), 
+                   "تحديثات بوت رفا",       url=f"https://t.me/sourcerafa"), 
                  
              ],[ 
             InlineKeyboardButton(
-                        " ᴅᴇᴠᴇʟᴏᴘᴇʀ", url=f"https://t.me/Z_l_7"), 
+                        " ᴅᴇᴠᴇʟᴏᴘᴇʀ", url=f"https://t.me/UYT01"), 
                       
              ],[ 
                   InlineKeyboardButton(
