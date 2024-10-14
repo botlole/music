@@ -10,7 +10,7 @@ from ZeMusic import app
 from config import YOUTUBE_IMG_URL
 
 # رابط الصوره
-YOUTUBE_IMG = "https://telegra.ph/file/f52975ab35fc7daa56abd.jpg"
+YOUTUBE_IMG = "https://api.grouphelp.top/chelp/index.php?f=AgACAgQAAxkBOIRD3WcNYbW6jy82VJ07lKkJ1hPo98F5AALvwzEbUFhpUANUzRs41_xcAQADAgADeAADNgQ"
 
 def changeImageSize(maxWidth, maxHeight, image):
     widthRatio = maxWidth / image.size[0]
