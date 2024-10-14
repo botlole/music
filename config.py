@@ -80,17 +80,17 @@ confirmer = {}
 
 
 START_IMG_URL = getenv("START_IMG_URL")
-PING_IMG_URL = "https://telegra.ph/file/e29510f6e263bb5264cfb.jpg"
-PLAYLIST_IMG_URL = "https://telegra.ph/file/e29510f6e263bb5264cfb.jpg"
-STATS_IMG_URL = "https://telegra.ph/file/e29510f6e263bb5264cfb.jpg"
-TELEGRAM_AUDIO_URL = "https://telegra.ph/file/e29510f6e263bb5264cfb.jpg"
-TELEGRAM_VIDEO_URL = "https://telegra.ph/file/e29510f6e263bb5264cfb.jpg"
-STREAM_IMG_URL = "https://telegra.ph/file/e29510f6e263bb5264cfb.jpg"
-SOUNCLOUD_IMG_URL = "https://telegra.ph/file/e29510f6e263bb5264cfb.jpg"
-YOUTUBE_IMG_URL = "https://telegra.ph/file/e29510f6e263bb5264cfb.jpg"
-SPOTIFY_ARTIST_IMG_URL = "https://telegra.ph/file/e29510f6e263bb5264cfb.jpg"
-SPOTIFY_ALBUM_IMG_URL = "https://telegra.ph/file/e29510f6e263bb5264cfb.jpg"
-SPOTIFY_PLAYLIST_IMG_URL = "https://telegra.ph/file/e29510f6e263bb5264cfb.jpg"
+PING_IMG_URL = "https://api.grouphelp.top/chelp/index.php?f=AgACAgQAAxkBOIRD3WcNYbW6jy82VJ07lKkJ1hPo98F5AALvwzEbUFhpUANUzRs41_xcAQADAgADeAADNgQ"
+PLAYLIST_IMG_URL = "https://api.grouphelp.top/chelp/index.php?f=AgACAgQAAxkBOIRD3WcNYbW6jy82VJ07lKkJ1hPo98F5AALvwzEbUFhpUANUzRs41_xcAQADAgADeAADNgQ"
+STATS_IMG_URL = "https://api.grouphelp.top/chelp/index.php?f=AgACAgQAAxkBOIRD3WcNYbW6jy82VJ07lKkJ1hPo98F5AALvwzEbUFhpUANUzRs41_xcAQADAgADeAADNgQ"
+TELEGRAM_AUDIO_URL = "https://api.grouphelp.top/chelp/index.php?f=AgACAgQAAxkBOIRD3WcNYbW6jy82VJ07lKkJ1hPo98F5AALvwzEbUFhpUANUzRs41_xcAQADAgADeAADNgQ"
+TELEGRAM_VIDEO_URL = "https://api.grouphelp.top/chelp/index.php?f=AgACAgQAAxkBOIRD3WcNYbW6jy82VJ07lKkJ1hPo98F5AALvwzEbUFhpUANUzRs41_xcAQADAgADeAADNgQ"
+STREAM_IMG_URL = "https://api.grouphelp.top/chelp/index.php?f=AgACAgQAAxkBOIRD3WcNYbW6jy82VJ07lKkJ1hPo98F5AALvwzEbUFhpUANUzRs41_xcAQADAgADeAADNgQ"
+SOUNCLOUD_IMG_URL = "https://api.grouphelp.top/chelp/index.php?f=AgACAgQAAxkBOIRD3WcNYbW6jy82VJ07lKkJ1hPo98F5AALvwzEbUFhpUANUzRs41_xcAQADAgADeAADNgQ"
+YOUTUBE_IMG_URL = "https://api.grouphelp.top/chelp/index.php?f=AgACAgQAAxkBOIRD3WcNYbW6jy82VJ07lKkJ1hPo98F5AALvwzEbUFhpUANUzRs41_xcAQADAgADeAADNgQ"
+SPOTIFY_ARTIST_IMG_URL = "https://api.grouphelp.top/chelp/index.php?f=AgACAgQAAxkBOIRD3WcNYbW6jy82VJ07lKkJ1hPo98F5AALvwzEbUFhpUANUzRs41_xcAQADAgADeAADNgQ"
+SPOTIFY_ALBUM_IMG_URL = "https://api.grouphelp.top/chelp/index.php?f=AgACAgQAAxkBOIRD3WcNYbW6jy82VJ07lKkJ1hPo98F5AALvwzEbUFhpUANUzRs41_xcAQADAgADeAADNgQ"
+SPOTIFY_PLAYLIST_IMG_URL = "https://api.grouphelp.top/chelp/index.php?f=AgACAgQAAxkBOIRD3WcNYbW6jy82VJ07lKkJ1hPo98F5AALvwzEbUFhpUANUzRs41_xcAQADAgADeAADNgQ"
 
 
 def time_to_seconds(time):
